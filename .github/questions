@@ -1,0 +1,43 @@
+2.soru:
+creational design pattern (oluşturucu tasarım kalıpları), class instances
+ların nasıl yaratılacağı hakkında öneriler sunan bir desendir. nesnelerin
+nasıl ve nereden yaratıldığı, yazılımın işleyişini bozmamalıdır. kendi içerisinde
+5 şablona ayrılır. Aşağıda https://koraypeker.com/2018/07/18/olusturucu-tasarim-sablonlari-creational-design-pattern/
+web sitesine ait açıklamalar bulunmaktadır. Konuyu detaylı aktaracak bilgiye sahip olmadığım için
+bilgiyi aynen aktarıyorum.
+
+Yegâne Şablonu (Singleton Pattern)
+Bir sınıftan sadece bir tane nesne yaratılacak şekilde kısıtlama sağlar.
+Söz konusu nesneye uygulamanın her yerinden ulaşılabilir. Nesne ilk kez kullanılana dek yaratılmayabilir.
+
+Fabrika Şablonu (Factory Pattern)
+Nesne yaratımı için kullanılan tek arayüz altında nesnenin nasıl yaratılacağını kalıtım yoluyla
+alt sınıflara bırakarak, arayüzle nesne yaratım işlevlerini birbirinden ayırır.
+
+Soyut Fabrika Şablonu (Abstract Factory Pattern)
+Tek arayüz ile bir nesne ailesinin farklı platformlarda yaratılmasını olanaklı kılar.
+Bu sayade yazılım uygulaması farklı platfromlara davranış değişikliğine uğramadan taşınabilir.
+Soyut fabrika kalıbı, tek arayüz altında hangi somut sınıfların kullanıldığını saklar.
+
+Prototip Şablonu (Prototype Pattern)
+Karmaşık ve/veya pahalı sınıflardan nesne yaratırken, yeni nesnelerin baştan oluşturulması yerine,
+mevcutlarından örnekleyerek oluşturulmasını sağlar. Bu sayede yeni nesneler kolayca ve kaynaklar
+gereksiz yere meşgul edilmeden yaratılırlar.
+
+Yapıcı Şablonu (Builder Pattern)
+Karmaşık bir nesne grubunun tek arayüz üzerinden gerektiği kadar parça parça yaratılmasını sağlar.
+Kullanılmayan parçalar gereksiz yere yaratılarak kaynak harcamaz.
+
+4.soru:
+Spring, jsf, maven, hibernate java frameworkleridir. Hepsinin kolaylık sağladığı, destek sağladığı
+alanlar birbirinden farklıdır. kod örneklerinden kasıtı anlamadığım için örnek koyamadım.
+
+5.soru:
+MVC,proxy pattern, factory pattern,  singleton pattern, template method pattern, front controller pattern,
+view helper pattern, prototype pattern, DI/IOC pattern
+
+6.soru:
+soa: dağıtık sistemlerin geliştirilmesi için kullanılan mimari bir stildir.reste göre daha güvenlidir.
+web service: http protokolü üzerinden diğer sistemlere hizmet veren yapılardır.
+restful service: rest mimarisini kullanır. http methodlarını kullanır.
+http methods: get,post, put delete methodlarıdır.
